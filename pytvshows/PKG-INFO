@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pytvshows
+Version: 0.2
+Summary: A simple, shell based tvrss.net torrent downloader.
+Home-page: http://pytvshows.sourceforge.net/
+Author: Ben Firshman
+Author-email: ben@firshman.co.uk
+License: UNKNOWN
+Description: pytvshows downloads torrents for TV shows from RSS feeds provided by tvRSS.net. It is designed to be run from cron or a shell for programs like rTorrent. It is based on TVShows (http://tvshows.sourceforge.net/).
+Platform: UNKNOWN
