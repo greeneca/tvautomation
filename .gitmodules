@@ -1,0 +1,3 @@
+[submodule "sorttv"]
+	path = sorttv
+	url = git@github.com:greeneca/sorttv.git
