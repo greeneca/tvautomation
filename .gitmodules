@@ -1,6 +1,3 @@
 [submodule "sorttv"]
 	path = sorttv
 	url = git@github.com:greeneca/sorttv.git
-[submodule "showrss.pl"]
-	path = showrss.pl
-	url = git@github.com:greeneca/showrss.pl.git
