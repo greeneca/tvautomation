@@ -1,0 +1,86 @@
+presets:
+  tv:
+    series:
+      - The Big Bang Theory
+      - The Big C
+      - Bones
+      - Breaking Bad
+      - Breaking In
+      - Castle (2009)
+      - Chuck
+      - The Colbert Report
+      - Community
+      - Continuum
+      - Craig Ferguson
+      - Criminal Minds
+      - The Daily Show
+      - Dexter
+      - Eureka
+      - Flashpoint
+      - Futurama
+      - Game of Thrones
+      - Girls
+      - Grey's Anatomy
+      - Grimm
+      - Hawaii Five-0
+      - Hell's Kitchen (US)
+      - How I Met Your Mother
+      - InSecurity
+      - Leverage
+      - Mad Men
+      - The Mentalist
+      - Mike & Molly
+      - MythBusters
+      - NCIS
+      - Once Upon a Time (2011)
+      - The Office
+      - Pan Am
+      - Pretty Little Liars
+      - Private Practice
+      - Sherlock
+      - The Simpsons
+      - Supernatural
+      - True Blood
+      - Two and a Half Men
+      - The Vampire Diaries
+      - The Walking Dead
+      - Weeds
+
+    transmission:
+      enabled: yes
+      host: localhost
+      port: 9091
+      username: greenot
+      password: a new grey hen
+      removewhendone: no
+
+tasks:
+  showrss.karmorra.info-tv:
+    priority: 1
+    rss: http://showrss.karmorra.info/feeds/all.rss
+    preset: tv
+
+  ezrss.it:
+    priority: 2
+    rss: http://ezrss.it/feed/
+    preset: tv
+
+#  thepiratebay.org-tv:
+#    priority: 3
+#    rss: http://rss.thepiratebay.org/208
+#    preset: tv
+
+#  kat.ph-tv:
+#    priority: 4
+#    rss: http://kat.ph/tv/?rss=1
+#    preset: tv
+
+#  extratorrent.com-tv:
+#    priority: 5
+#    rss: http://extratorrent.com/rss.xml?cid=8
+#    preset: tv
+
+#  torrentz.eu-tv:
+#    priority: 6
+#    rss: http://torrentz.eu/feed
+#    preset: tv
