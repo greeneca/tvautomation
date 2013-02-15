@@ -1,3 +1,3 @@
 #! /bin/bash
 
-perl /home/greenot/Scripts/torrents/sorttv/sorttv.pl -v
+perl /home/greenot/scripts/tvautomation/sorttv/sorttv.pl -v
