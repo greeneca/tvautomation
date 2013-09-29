@@ -1,6 +1,7 @@
 presets:
   tv:
     series:
+      - 2 Broke Girls
       - The Big Bang Theory
       - The Big C
       - Bones
@@ -8,21 +9,16 @@ presets:
       - Breaking In
       - Castle (2009)
       - Chuck
-      - The Colbert Report
       - Community
       - Continuum
-      - Craig Ferguson
-      - Criminal Minds
       - The Daily Show
       - Dexter
-      - Eureka
-      - Flashpoint
+      - Doctor Who (2005)
       - Futurama
       - Game of Thrones
       - Girls
       - Grey's Anatomy
       - Grimm
-      - Hawaii Five-0
       - Hell's Kitchen (US)
       - How I Met Your Mother
       - InSecurity
@@ -31,14 +27,10 @@ presets:
       - The Mentalist
       - Mike & Molly
       - MythBusters
-      - NCIS
       - Once Upon a Time (2011)
-      - The Office
       - Pan Am
       - Pretty Little Liars
       - Private Practice
-      - Sherlock
-      - The Simpsons
       - Supernatural
       - True Blood
       - Two and a Half Men
@@ -51,7 +43,7 @@ presets:
       host: localhost
       port: 9091
       username: greenot
-      password: ind5NKSfSXtA
+      password: "a new grey hen"
       removewhendone: no
 
 tasks:
@@ -65,6 +57,10 @@ tasks:
     rss: http://ezrss.it/feed/
     preset: tv
 
+  dailytvtorrents:
+    priority: 3
+    rss: http://www.dailytvtorrents.org/rss/allshows
+    preset: tv
 #  thepiratebay.org-tv:
 #    priority: 3
 #    rss: http://rss.thepiratebay.org/208
